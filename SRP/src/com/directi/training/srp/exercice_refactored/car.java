@@ -1,12 +1,12 @@
-package com.directi.training.srp.exercise;
+package com.directi.training.srp.exercice_refactored;
 
-public class Car
-{
+public class car {
+    
     private final String _id;
     private final String _model;
     private final String _brand;
 
-    public Car(String id, String model, String brand)
+    public car(String id, String model, String brand)
     {
         _id = id;
         _model = model;
